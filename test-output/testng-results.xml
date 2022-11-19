@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-17T21:39:10 EST" name="Default suite" finished-at="2022-11-17T21:40:08 EST" duration-ms="58037">
+    <groups>
+    </groups>
+    <test started-at="2022-11-17T21:39:10 EST" name="Default test" finished-at="2022-11-17T21:40:08 EST" duration-ms="58037">
+      <class name="Tests.searchBoxTest">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:Tests.searchBoxTest@ffaa6af]" started-at="2022-11-17T21:39:10 EST" name="getDriver" finished-at="2022-11-17T21:39:44 EST" duration-ms="33622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method signature="searchBoxHappyPath()[pri:0, instance:Tests.searchBoxTest@ffaa6af]" started-at="2022-11-17T21:39:44 EST" name="searchBoxHappyPath" finished-at="2022-11-17T21:40:08 EST" duration-ms="23976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxHappyPath -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.searchBoxTest@ffaa6af]" started-at="2022-11-17T21:40:08 EST" name="tearDown" finished-at="2022-11-17T21:40:08 EST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.searchBoxTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
