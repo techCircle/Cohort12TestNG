@@ -8,9 +8,14 @@ public class searchBoxTest extends commonmethods {
 	
 	@Test
 	public void searchBoxHappyPath() {
-		sendKey(cp.searchBox, "box");
+		
+		String state = randomState();
+		highLightElementMethod(cp.searchBox);
+		sendKey(cp.searchBox,state);
+		highLightElementMethod(cp.searchBoxButton);
 		click(cp.searchBoxButton);
-		assertTitle("box");
+		assertTitle(state);
+		System.out.println(state);
 		
 	}
 
