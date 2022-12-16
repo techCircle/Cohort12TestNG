@@ -6,6 +6,8 @@
       <class name="Tests.searchBoxTest">
         <methods>
           <include name="searchBoxHappyPath"/>
+          <include name="getDriver"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Tests.searchBoxTest -->
     </classes>

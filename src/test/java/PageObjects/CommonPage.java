@@ -17,5 +17,14 @@ public class CommonPage {
 
 	@FindBy(xpath = "//*[@id='nav-search-submit-button']")
 	public WebElement searchBoxButton;
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
